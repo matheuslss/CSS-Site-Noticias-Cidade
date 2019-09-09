@@ -56,3 +56,18 @@ ul{
 #topo ul .primeiro a{
     background: none;
 }
+
+#topo ul li a:hover{
+    color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.internacional #navegacao a#internacional,
+body.brasil #navegacao a#brasil,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.fotos #navegacao a#fotos{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
+}
