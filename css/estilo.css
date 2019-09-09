@@ -86,16 +86,24 @@ body.fotos #navegacao a#fotos{
     margin-left: 195px; 
 }
 
+#duas-colunas #conteudo-primario{
+    width: 555px;
+}
+
+#uma-coluna #conteudo-primario{
+    width: 750px;
+}
+
 #conteudo-secundario{
     width: 270px;
     background: green;
     float: left;
     margin-bottom: 20px;
+    margin-left: 15px;
 }
 
 #conteudo-lateral{
     width: 180px;
-    background: yellow;
     float: left;
     margin-bottom: 20px;
     margin-left: -750px;
@@ -111,4 +119,23 @@ body.fotos #navegacao a#fotos{
     width: 750px;
     margin: 0 auto;
     color: #fff;
+}
+
+.caixa{
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px 0; 
+}
+
+.caixa h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
