@@ -80,7 +80,6 @@ body.fotos #navegacao a#fotos{
 
 #conteudo-primario{
     width: 270px;
-    background: blue;
     float: left;
     margin-bottom: 20px;
     margin-left: 195px; 
@@ -96,7 +95,6 @@ body.fotos #navegacao a#fotos{
 
 #conteudo-secundario{
     width: 270px;
-    background: green;
     float: left;
     margin-bottom: 20px;
     margin-left: 15px;
@@ -138,4 +136,63 @@ body.fotos #navegacao a#fotos{
     background: #fff;
     padding: 5px;
     margin-top: 5px;
+}
+
+#conteudo-lateral ul li a{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#conteudo-lateral ul li a:hover{
+    color: #a1a1a1;
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px; 
+}
+
+#conteudo-lateral label{
+    cursor: pointer;
+    display: block;
+
+}
+
+#conteudo-lateral input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+}
+
+#conteudo-lateral input.submit{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin-top: 5px;
+}
+
+.img{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #d3003e;
+    color: #fff;
 }
